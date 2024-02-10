@@ -5,24 +5,6 @@
 
 int main(int argc, char const *argv[]){
     int elements[] = {10, 20, 30, 40};
-
-    // while (true)
-    // {
-    //     int value, index = 0; 
-    //     printf("Enter Value: "); 
-    //     scanf("%d", &value); 
-    //     if (value != 0)
-    //     {
-    //         elements[index] = value; 
-    //         index ++; 
-    //         value = 0; 
-    //         continue;
-    //     }
-    //     else if (value == 0)
-    //     {
-    //         break;
-    //     }
-    // }
     
     int *ptr; 
     ptr = elements; 
