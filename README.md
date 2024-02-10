@@ -8,4 +8,7 @@ Questions:
 4. Program to print a string using pointer. 
 5. Program to count vowels and consonants in a string using pointer. 
 6. Program to find sum of elements of array using pointer. 
-7. Program to swap two numbers using pointers. 
+7. Program to swap two numbers using pointers.
+
+
+- Follow @varadpal a.k.a socketgut For More Updates...   
