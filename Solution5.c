@@ -11,9 +11,8 @@ int main(int argc, char const *argv[]){
     scanf("%s", &word);
 
     char *ptrw; 
-    ptrw = word; 
+    ptrw=&word; 
     // printf("%s\n", word);
-    
     for (int i = 0; i < strlen(word); i++)
     {
         for (int j = 0; j < strlen(vowels); j++)
