@@ -9,6 +9,11 @@ Questions:
 5. Program to count vowels and consonants in a string using pointer. 
 6. Program to find sum of elements of array using pointer. 
 7. Program to swap two numbers using pointers.
+8. Program to swap 2 numbers using pointers and functions.
+9. Compare strings using pointer.
+10. Find Largest number in array using pointer.
+11. Find smallest number in array using pointer.
+12. Find sum of all matrix elements using pointer.
 
 
 - Follow @varadpal a.k.a socketgut For More Updates...   
