@@ -12,7 +12,7 @@ int main(int argc, char const *argv[]){
 
     char *ptrw; 
     ptrw=&word; 
-    // printf("%s\n", word);
+
     for (int i = 0; i < strlen(word); i++)
     {
         for (int j = 0; j < strlen(vowels); j++)
