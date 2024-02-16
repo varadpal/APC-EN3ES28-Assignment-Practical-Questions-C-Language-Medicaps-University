@@ -19,7 +19,6 @@ int main(int argc, char const *argv[]){
         {
             if (*(&ptrw[i]) == vowels[j])
         {
-            // printf("%d Found\n", +1);
             vowels_count++; 
         }
         else
