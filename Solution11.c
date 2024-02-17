@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     printf("Enter the Range of Number: ");
     scanf("%d", &range);
 
-    int arr[5] = {};
+    int arr[range];
 
     for(int k = 0; k < range; ++k) {
         printf("Enter Value %d: ", k + 1);
