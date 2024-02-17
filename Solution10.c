@@ -4,10 +4,10 @@
 
 int main(int argc, char const *argv[]){
     int range; 
-    printf("Enter the Range of Array: ");
+    printf("Enter the Range of Number: ");
     scanf("%d", &range); 
 
-    int arr[range] = {};
+    int arr[range];
 
     for (int i = 0; i < range; ++i) {
         printf("Enter Value %d: ", i+1);
@@ -31,11 +31,11 @@ int main(int argc, char const *argv[]){
                 counter++;
             }
 
+        }
             if (counter == lenght){
                 largestNumber = *(&ptr[i]);
                 break;
             }
-        }
             counter = 0; 
     }
     
