@@ -1,3 +1,5 @@
+// Find Largest number in array using pointer.
+
 #include <stdio.h>
 
 int main(int argc, char const *argv[]){
