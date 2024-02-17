@@ -4,7 +4,7 @@
 
 int main(int argc, char const *argv[]){
     int range; 
-    printf("Enter the Range of Number: ");
+    printf("Enter the Range of Array: ");
     scanf("%d", &range); 
 
     int arr[range];
