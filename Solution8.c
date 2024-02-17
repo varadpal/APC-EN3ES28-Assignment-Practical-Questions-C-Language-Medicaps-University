@@ -1,28 +1,27 @@
-    #include <stdio.h> 
+// Program to swap 2 numbers using pointers and functions.
 
-    void Swap(int *a, int *b){
-        *a += *b; 
-        *b = *a - *b; 
-        *a -= *b; 
-    }
+#include <stdio.h> 
 
-    int main() {
-        // Defining Varibles
-        int num1, num2;
+void Swap(int *a, int *b){
+    *a += *b; 
+    *b = *a - *b; 
+    *a -= *b; 
+}
 
-        // Taking Valkues from User
-        printf("Enter Number 1: "); 
-        scanf("%d", &num1);
+int main() {
+    // Defining Varibles
+    int num1, num2;
 
-        printf("Enter Number 1: "); 
-        scanf("%d", &num1);
+    // Taking Valkues from User
+    printf("Enter Number 1: "); 
+    scanf("%d", &num1);
 
-        // Results Before Swapping    
-        printf("Before Swapping\nnum1 : %d\nnum2 : %d\n", num1, num2); 
-        // Using Function Swap and giving the position of the two variables
-        Swap(&num1, &num2);
-        // Results After Swapping    
-        printf("After Swapping\nnum1 : %d\nnum2 : %d\n", num1, num2); 
-        
-
-    }
+    printf("Enter Number 1: "); 
+    scanf("%d", &num1);
+    // Results Before Swapping    
+    printf("Before Swapping\nnum1 : %d\nnum2 : %d\n", num1, num2); 
+    // Using Function Swap and giving the position of the two variables
+    Swap(&num1, &num2);
+    // Results After Swapping    
+    printf("After Swapping\nnum1 : %d\nnum2 : %d\n", num1, num2); 
+}
