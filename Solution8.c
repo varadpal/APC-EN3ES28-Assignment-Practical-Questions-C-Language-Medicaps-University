@@ -17,7 +17,7 @@ int main() {
     scanf("%d", &num1);
 
     printf("Enter Number 1: "); 
-    scanf("%d", &num1);
+    scanf("%d", &num2);
     // Results Before Swapping    
     printf("Before Swapping\nnum1 : %d\nnum2 : %d\n", num1, num2); 
     // Using Function Swap and giving the position of the two variables
