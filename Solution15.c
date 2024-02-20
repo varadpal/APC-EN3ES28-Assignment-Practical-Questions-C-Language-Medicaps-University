@@ -15,10 +15,19 @@ void Mul(int a, int b){
 }
 
 int main() {
-    int num1 = 3, num2 = 2; 
-
+    int num1, num2;
+    
+    // For Taking Values of num1 and num2 from user
+    printf("Enter Number 1: ");
+    scanf("%d", &num1);
+    
+    printf("Enter Number 2: ");
+    scanf("%d", &num2);
+    
+    // Declaring Function Pointer Array for the Functions Made Above
     void (*fun_ptr_arr[])(int, int) = {Sum, Subtract, Div, Mul};
     
+    // Asking User To Choose Which function (operation) they want to trigger
     int choice;
     printf("Choose from Following:\n"
     "1. For Addition\n"
@@ -27,7 +36,12 @@ int main() {
     "4. For Multiplication\n"
     ); 
     scanf("%d", &choice);
-    (*fun_ptr_arr[choice-1])(num1, num2);
+    
+    // Calling the Appropriate Function According to the Value of Variable 'choice'
+    // that which the user will enter.
+    (*fun_ptr_arr[choice-1])(num1, num2); // Here, we took choice - 1 because, when choice is say
+                                          // 1 then we want to trigger the index position 0 of 
+                                          // function Pointer Array.
 
     return 0;
 }
