@@ -20,6 +20,11 @@ Questions:
 10. Find Largest number in array using pointer.
 11. Find smallest number in array using pointer.
 12. Find sum of all matrix elements using pointer.
+13. Program to create a pointer array store elements in it and display.
+14. Program to demonstrate function pointers.
+15. Program to perform addition, substraction, division and multiplication using array of fuction pointers.
+16. Program to display details of students (i.e Name, Roll No., Marks) using structure.
+17. Program to display details of employees using array of structure.
 
 
 - Follow @varadpal a.k.a socketgut For More Updates...   
