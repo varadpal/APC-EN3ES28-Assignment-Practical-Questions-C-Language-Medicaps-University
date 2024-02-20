@@ -10,14 +10,14 @@ struct Employees{
 };
 
 int main() {
-    struct Employees Employe1= {"Varad", 1, 'M'};
-    struct Employees Employe2= {"Vatsal", 2, 'M'};
-    struct Employees Employe3= {"Varun", 3, 'M'};
-    struct Employees Employe4= {"Aryansh", 4, 'M'};
+    struct Employees Employee1= {"Varad", 1, 'M'};
+    struct Employees Employee2= {"Vatsal", 2, 'M'};
+    struct Employees Employee3= {"Varun", 3, 'M'};
+    struct Employees Employee4= {"Aryansh", 4, 'M'};
 
     
-    printf("Name: %s\nEmployee Id: %d\nGender: %c\n", Employe1.name, Employe1.empId, Employe1.gender);
-    printf("\n\nName: %s\nEmployee Id: %d\nGender: %c\n", Employe2.name, Employe2.empId, Employe2.gender);
-    printf("\n\nName: %s\nEmployee Id: %d\nGender: %c\n", Employe3.name, Employe3.empId, Employe3.gender);
-    printf("\n\nName: %s\nEmployee Id: %d\nGender: %c\n", Employe4.name, Employe4.empId, Employe4.gender);
+    printf("Name: %s\nEmployee Id: %d\nGender: %c\n", Employee1.name, Employee1.empId, Employee1.gender);
+    printf("\n\nName: %s\nEmployee Id: %d\nGender: %c\n", Employee2.name, Employee2.empId, Employee2.gender);
+    printf("\n\nName: %s\nEmployee Id: %d\nGender: %c\n", Employee3.name, Employee3.empId, Employee3.gender);
+    printf("\n\nName: %s\nEmployee Id: %d\nGender: %c\n", Employee4.name, Employee4.empId, Employee4.gender);
 }
