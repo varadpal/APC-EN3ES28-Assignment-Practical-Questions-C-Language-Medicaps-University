@@ -2,10 +2,6 @@
 #include <stdio.h>
 
 int main() {
-    // int range; 
-    // printf("Enter Range of Array: "); 
-    // scanf("%d", &range);
-    
     int arr[5] = {}; 
 
     int *ptr;
