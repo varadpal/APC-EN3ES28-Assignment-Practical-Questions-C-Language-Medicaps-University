@@ -22,7 +22,7 @@ Questions:
 12. Find sum of all matrix elements using pointer.
 13. Program to create a pointer array store elements in it and display.
 14. Program to demonstrate function pointers.
-15. Program to perform addition, substraction, division and multiplication using array of fuction pointers.
+15. Program to perform addition, substraction, division and multiplication using array of function pointers.
 16. Program to display details of students (i.e Name, Roll No., Marks) using structure.
 17. Program to display details of employees using array of structure.
 
