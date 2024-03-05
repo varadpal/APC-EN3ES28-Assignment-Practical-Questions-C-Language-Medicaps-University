@@ -25,6 +25,10 @@ Questions:
 15. Program to perform addition, substraction, division and multiplication using array of function pointers.
 16. Program to display details of students (i.e Name, Roll No., Marks) using structure.
 17. Program to display details of employees using array of structure.
+18. Program to access member of structure using pointer.
+19. Program for passing structure to a function.
+20. Program for returning structure from a function.
+21. program to display details of student using union.
 
 
 - Follow @varadpal a.k.a socketgut For More Updates...   
