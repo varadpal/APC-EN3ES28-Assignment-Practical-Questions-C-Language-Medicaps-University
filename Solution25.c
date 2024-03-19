@@ -1,4 +1,5 @@
-// Online C compiler to run C program online
+// Program to print month of year.
+
 #include <stdio.h>
 
 enum Months{
@@ -12,40 +13,40 @@ int main() {
     for(int i = jan; i <= december; i++){
         switch(i){
             case 1: 
-                printf("January = %d\n", i);
+                printf("%d. January\n", i);
                 break;
             case 2: 
-                printf("February = %d\n", i);
+                printf("%d. February\n", i);
                 break;
             case 3: 
-                printf("March = %d\n", i);
+                printf("%d. March\n", i);
                 break;
             case 4: 
-                printf("April = %d\n", i);
+                printf("%d. April\n", i);
                 break;
             case 5: 
-                printf("May = %d\n", i);
+                printf("%d. May\n", i);
                 break;
             case 6: 
-                printf("June = %d\n", i);
+                printf("%d. June\n", i);
                 break;
             case 7: 
-                printf("July = %d\n", i);
+                printf("%d. July\n", i);
                 break;
             case 8: 
-                printf("August = %d\n", i);
+                printf("%d. August\n", i);
                 break;
             case 9: 
-                printf("September = %d\n", i);
+                printf("%d. September\n", i);
                 break;
             case 10: 
-                printf("October = %d\n", i);
+                printf("%d. October\n", i);
                 break;
             case 11: 
-                printf("November = %d\n", i);
+                printf("%d. November\n", i);
                 break;
             case 12: 
-                printf("December = %d\n", i);
+                printf("%d. December\n", i);
                 break;
         }
     }
